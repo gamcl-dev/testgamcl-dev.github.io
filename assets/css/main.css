@@ -2324,11 +2324,11 @@ input, select, textarea {
 				background-color: #e8edec;
 			}	
 
-	#trollinc {
+	#projectpage {
 			margin-left: 375px;
 			}
 		
-			#trollinc > section {
+			#projectpage > section {
 				margin: 0;
 				overflow: hidden;
 				padding: 4em 0;
@@ -2337,36 +2337,36 @@ input, select, textarea {
 				background-image: url("images/overlay.png");
 			}
 	
-				#trollinc > section.dark {
+				#projectpage > section.dark {
 					color: #ddd;
 					color: rgba(255, 255, 255, 0.75);
 				}
 	
-					#trollinc > section.dark h2, #trollinc > section.dark h3, #trollinc > section.dark h4, #trollinc > section.dark h5, #trollinc > section.dark h6 {
+					#projectpage > section.dark h2, #projectpage > section.dark h3, #projectpage > section.dark h4, #projectpage > section.dark h5, #projectpage > section.dark h6 {
 						color: inherit;
 					}
 	
-					#trollinc > section.dark strong {
+					#projectpage > section.dark strong {
 						color: #fff;
 						border-color: inherit;
 					}
 	
-					#trollinc > section.dark a {
+					#projectpage > section.dark a {
 						color: #fff;
 						border-color: inherit;
 					}
 	
-						#trollinc > section.dark a:hover {
+						#projectpage > section.dark a:hover {
 							border-bottom-color: rgba(255, 255, 255, 0);
 						}
 	
-				#trollinc > section.cover {
+				#projectpage > section.cover {
 					padding: 10em 0;
 					background-size: cover;
 					background-position: center center;
 				}
 	
-				#trollinc > section.one {
+				#projectpage > section.one {
 					background-color: rgb(0, 0, 0);
 					/*background-image: url("../../images/banner.jpg");*/
 					background-image: linear-gradient(
@@ -2376,24 +2376,30 @@ input, select, textarea {
 						background-size: 50%;
 						background-repeat: no-repeat;
 				}
+				#projectpage > section.bosch {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/bosch_sensetec.png");
+				}
 	
-				#trollinc > section.two {
+				#projectpage > section.two {
 					background-color: #f5fafa;
 				}
 	
-				#trollinc > section.three {
+				#projectpage > section.three {
 					background-color: #f5fafa;
 	
 				}
-				#trollinc > section.three header h2 {
+				#projectpage > section.three header h2 {
 					color: #ddd;
 				}
 	
-				#trollinc > section.three p{
+				#projectpage > section.three p{
 					color: #ddd;
 				}
 	
-				#trollinc > section.four {
+				#projectpage > section.four {
 					background-color: #e8edec;
 				}	
 /* Wide */
@@ -2425,7 +2431,7 @@ input, select, textarea {
 		}
 		/* trollinc */
 
-			#trollinc {
+			#projectpage {
 				margin-left: 300px;
 			}
 
@@ -2446,11 +2452,11 @@ input, select, textarea {
 		}
 		/* trollinc */
 
-			#trollinc > section {
+			#projectpage > section {
 				padding: 3em 0;
 			}
 
-			#trollinc section.cover {
+			#projectpage section.cover {
 				padding: 5em 0;
 			}
 
@@ -2522,7 +2528,7 @@ input, select, textarea {
 		}
 		/* trollinc */
 
-			#trollinc {
+			#projectpage {
 				margin-left: 20%;
 			}
 
@@ -2681,7 +2687,7 @@ input, select, textarea {
 						-ms-transform: translateX(275px);
 						transform: translateX(275px);
 					}
-					body.header-visible #trollinc {
+					body.header-visible #projectpage {
 						-moz-transform: translateX(275px);
 						-webkit-transform: translateX(275px);
 						-ms-transform: translateX(275px);
@@ -2733,7 +2739,7 @@ input, select, textarea {
 				
 		/* trollinc */
 
-			#trollinc {
+			#projectpage {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2746,11 +2752,11 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
-				#trollinc > section {
+				#projectpage > section {
 					padding: 3em 0;
 				}
 
-				#trollinc section.cover {
+				#projectpage section.cover {
 					padding: 4em 0;
 				}
 
@@ -2799,15 +2805,15 @@ input, select, textarea {
 				
 		/* trollinc */
 
-			#trollinc > section {
+			#projectpage > section {
 				padding: 2em 0;
 			}
 
-			#trollinc section.cover {
+			#projectpage section.cover {
 				padding: 4em 0em;
 			}
 
-				#trollinc section.cover header {
+				#projectpage section.cover header {
 					padding: 0 1em;
 				}
 
