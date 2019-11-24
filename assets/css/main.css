@@ -1776,6 +1776,13 @@ input, select, textarea {
 					width: 1.25em;
 					line-height: 1.75em;
 				}
+				
+		#skills img
+		{
+			width: 64px;
+			height: 64px;
+			filter: drop-shadow(5px 5px 2px #4444447e);
+		}
 
 
 /* Image */
@@ -2031,7 +2038,7 @@ input, select, textarea {
 		}
 
 			.item header h3 {
-				font-size: 1em;
+				font-size: 2em;
 			}
 		
 			.iteminfos{
