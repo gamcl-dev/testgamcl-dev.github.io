@@ -2384,6 +2384,27 @@ input, select, textarea {
 						background-size: 50%;
 						background-repeat: no-repeat;
 				}
+				
+				#projectpage > section.two {
+					background-color: #f5fafa;
+				}
+	
+				#projectpage > section.three {
+					background-color: #f5fafa;
+	
+				}
+				#projectpage > section.three header h2 {
+					color: #ddd;
+				}
+	
+				#projectpage > section.three p{
+					color: #ddd;
+				}
+	
+				#projectpage > section.four {
+					background-color: #e8edec;
+				}	
+
 				#projectpage > section.bosch {
 					background-image: linear-gradient(
 						rgba(0, 0, 0, 0.5),
@@ -2402,7 +2423,7 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/my_mind.png");
 				}
-				#projectpage > section.seagulSwipe {
+				#projectpage > section.seagullSwipe {
 					background-image: linear-gradient(
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
@@ -2458,25 +2479,6 @@ input, select, textarea {
 						),url("../../images/portfolio_images/democracy_now.png");
 				}
 	
-				#projectpage > section.two {
-					background-color: #f5fafa;
-				}
-	
-				#projectpage > section.three {
-					background-color: #f5fafa;
-	
-				}
-				#projectpage > section.three header h2 {
-					color: #ddd;
-				}
-	
-				#projectpage > section.three p{
-					color: #ddd;
-				}
-	
-				#projectpage > section.four {
-					background-color: #e8edec;
-				}	
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
