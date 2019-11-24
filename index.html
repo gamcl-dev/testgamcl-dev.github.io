@@ -37,7 +37,7 @@
 							<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
 							<li><a href="https://github.com/gamcl-dev" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-							<li><a href="redirect-mailto.php" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="javascript:decryptEmail('Z2F2aW4uYW1jbGF1Z2hsaW5AZ21haWwuY29t');" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 				</div>
 			</div>
@@ -56,7 +56,7 @@
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">My Portfolio</a>
+								<a href="#portfolio" class="button scrolly">Start looking at my Portfolio</a>
 							</footer>
 
 						</div>
@@ -238,10 +238,27 @@
 
 							<p>If you find any of the work I've been involved in interesting and feel you'd like to get in touch please do so </p>
 							<section>
+								<!-- 
 								<div>
 									<h3>Email</h3>
 									<a href="mailto:gavin@gmail.com" class="icon alt fa-envelope"></a><span class="label"><a href="mailto:gavin@gmail.com"> gavin@gmail.com</a> </span>
 								</div>
+								-->
+								<script type="text/javascript">var submitted=false;</script>
+								<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+								onload="if(submitted) {window.location='index.html';}"></iframe>
+								<form method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSduTKlZOfaY5OK2ngdHuT8yYjdJ-S9iPVaq-I2ocf-foAIGmw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+									<div class="row">
+										<div class="col-6 col-12-mobile"><input type="text" name="entry.2024523488" placeholder="Name" /></div>
+										<div class="col-6 col-12-mobile"><input type="text" name="emailAddress" placeholder="Email" /></div>
+										<div class="col-12">
+											<textarea name="entry.591770782" placeholder="Message"></textarea>
+										</div>
+										<div class="col-12">
+											<input type="submit" value="Send Message" />
+										</div>
+									</div>
+								</form>
 							</section>
 							<!-- <section>
 								<div>
@@ -252,20 +269,7 @@
 									</ul> 
 								</div>
 							</section>-->
-							<!--
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
- 							-->
+							 
 						</div>
 					</section>
 
@@ -289,6 +293,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/mailtodecode.js"></script>
 
 	</body>
 </html>
