@@ -2322,8 +2322,80 @@ input, select, textarea {
 
 			#main > section.four {
 				background-color: #e8edec;
-			}
+			}	
 
+	#trollinc {
+			margin-left: 375px;
+			}
+		
+			#trollinc > section {
+				margin: 0;
+				overflow: hidden;
+				padding: 4em 0;
+				box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+				text-align: center;
+				background-image: url("images/overlay.png");
+			}
+	
+				#trollinc > section.dark {
+					color: #ddd;
+					color: rgba(255, 255, 255, 0.75);
+				}
+	
+					#trollinc > section.dark h2, #trollinc > section.dark h3, #trollinc > section.dark h4, #trollinc > section.dark h5, #trollinc > section.dark h6 {
+						color: inherit;
+					}
+	
+					#trollinc > section.dark strong {
+						color: #fff;
+						border-color: inherit;
+					}
+	
+					#trollinc > section.dark a {
+						color: #fff;
+						border-color: inherit;
+					}
+	
+						#trollinc > section.dark a:hover {
+							border-bottom-color: rgba(255, 255, 255, 0);
+						}
+	
+				#trollinc > section.cover {
+					padding: 10em 0;
+					background-size: cover;
+					background-position: center center;
+				}
+	
+				#trollinc > section.one {
+					background-color: rgb(0, 0, 0);
+					/*background-image: url("../../images/banner.jpg");*/
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5)
+						),url("../../images/portfolio_images/troll_inc_logo.png");
+						background-size: 50%;
+						background-repeat: no-repeat;
+				}
+	
+				#trollinc > section.two {
+					background-color: #f5fafa;
+				}
+	
+				#trollinc > section.three {
+					background-color: #f5fafa;
+	
+				}
+				#trollinc > section.three header h2 {
+					color: #ddd;
+				}
+	
+				#trollinc > section.three p{
+					color: #ddd;
+				}
+	
+				#trollinc > section.four {
+					background-color: #e8edec;
+				}	
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -2348,7 +2420,12 @@ input, select, textarea {
 
 		/* Main */
 
-			#main {
+		#main {
+			margin-left: 300px;
+		}
+		/* trollinc */
+
+			#trollinc {
 				margin-left: 300px;
 			}
 
@@ -2360,11 +2437,20 @@ input, select, textarea {
 
 		/* Main */
 
-			#main > section {
+		#main > section {
+			padding: 3em 0;
+		}
+
+		#main section.cover {
+			padding: 5em 0;
+		}
+		/* trollinc */
+
+			#trollinc > section {
 				padding: 3em 0;
 			}
 
-			#main section.cover {
+			#trollinc section.cover {
 				padding: 5em 0;
 			}
 
@@ -2431,7 +2517,12 @@ input, select, textarea {
 
 		/* Main */
 
-			#main {
+		#main {
+			margin-left: 20%;
+		}
+		/* trollinc */
+
+			#trollinc {
 				margin-left: 20%;
 			}
 
@@ -2584,12 +2675,18 @@ input, select, textarea {
 						line-height: 2.25em;
 					}
 
-			body.header-visible #main {
-				-moz-transform: translateX(275px);
-				-webkit-transform: translateX(275px);
-				-ms-transform: translateX(275px);
-				transform: translateX(275px);
-			}
+					body.header-visible #main {
+						-moz-transform: translateX(275px);
+						-webkit-transform: translateX(275px);
+						-ms-transform: translateX(275px);
+						transform: translateX(275px);
+					}
+					body.header-visible #trollinc {
+						-moz-transform: translateX(275px);
+						-webkit-transform: translateX(275px);
+						-ms-transform: translateX(275px);
+						transform: translateX(275px);
+					}
 
 			body.header-visible #headerToggle {
 				-moz-transform: translateX(275px);
@@ -2633,6 +2730,29 @@ input, select, textarea {
 				#main section.cover {
 					padding: 4em 0;
 				}
+				
+		/* trollinc */
+
+			#trollinc {
+				-moz-backface-visibility: hidden;
+				-webkit-backface-visibility: hidden;
+				-ms-backface-visibility: hidden;
+				backface-visibility: hidden;
+				-moz-transition: -moz-transform 0.5s ease;
+				-webkit-transition: -webkit-transform 0.5s ease;
+				-ms-transition: -ms-transform 0.5s ease;
+				transition: transform 0.5s ease;
+				padding-bottom: 1px;
+				margin-left: 0;
+			}
+
+				#trollinc > section {
+					padding: 3em 0;
+				}
+
+				#trollinc section.cover {
+					padding: 4em 0;
+				}
 
 	}
 
@@ -2674,6 +2794,20 @@ input, select, textarea {
 			}
 
 				#main section.cover header {
+					padding: 0 1em;
+				}
+				
+		/* trollinc */
+
+			#trollinc > section {
+				padding: 2em 0;
+			}
+
+			#trollinc section.cover {
+				padding: 4em 0em;
+			}
+
+				#trollinc section.cover header {
 					padding: 0 1em;
 				}
 
