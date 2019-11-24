@@ -2390,6 +2390,73 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/bosch_sensetec.png");
 				}
+				#projectpage > section.jellyflugMicroAdventures {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/jellyflug_micro_adventures.png");
+				}
+				#projectpage > section.myMind {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/my_mind.png");
+				}
+				#projectpage > section.seagulSwipe {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/seagull_swipe.png");
+				}
+				
+				#projectpage > section.jellyflugAntibodyAssault {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/jellyflug_antibody_assault.png");
+				}
+				
+				#projectpage > section.bosch {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/bosch_sensetec.png");
+				}
+				
+				#projectpage > section.codinca {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/codinca.png");
+				}
+				
+				#projectpage > section.stMarys {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/st_marys_app.png");
+				}
+				
+				#projectpage > section.jellyflug {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/jellyflug.png");
+				}
+				
+				#projectpage > section.chickenJumper {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/chicken_jumper_1.png");
+				}
+				
+				#projectpage > section.democracyNow {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/democracy_now.png");
+				}
 	
 				#projectpage > section.two {
 					background-color: #f5fafa;
