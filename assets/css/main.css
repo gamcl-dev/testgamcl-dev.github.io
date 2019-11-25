@@ -2417,6 +2417,12 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/jellyflug_micro_adventures.png");
 				}
+				#projectpage > section.projecthoneycomb {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/projecthoneycomb.png");
+				}
 				#projectpage > section.myMind {
 					background-image: linear-gradient(
 						rgba(0, 0, 0, 0.5),
