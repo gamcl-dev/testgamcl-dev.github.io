@@ -2344,6 +2344,13 @@ input, select, textarea {
 				text-align: center;
 				background-image: url("images/overlay.png");
 			}
+
+			#projectpage > section p{
+				text-align: left;
+			}
+			#projectpage > section li{
+				text-align: left;
+			}
 	
 				#projectpage > section.dark {
 					color: #ddd;
@@ -2844,6 +2851,9 @@ input, select, textarea {
 				}
 
 	}
+	.isMobile {
+		display: inline;
+	}
 
 /* Mobile */
 
@@ -2864,6 +2874,10 @@ input, select, textarea {
 			.container {
 				padding: 0 15px 0 15px;
 			}
+			
+			.isMobile {
+				display: none;
+	}		
 
 		/* List */
 
