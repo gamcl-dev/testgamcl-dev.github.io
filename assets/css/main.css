@@ -2490,7 +2490,29 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/democracy_now.png");
 				}
-	
+
+/* Text effect intro */
+
+.char{
+	/*font-size: 40px; */
+	/*height: 40px; */
+	animation: an 1s ease-out 1 both;
+	display: inline-block;
+	word-spacing: normal;
+	word-wrap: normal;
+}
+
+@keyframes an{
+	from{
+		opacity: 0;
+		transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, 0, 0, 35deg);
+	}
+	to{
+		opacity: 1;
+		transform: perspective(500px) translate3d(0, 0, 0);
+	}
+}
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
