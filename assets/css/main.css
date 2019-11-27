@@ -2266,6 +2266,16 @@ input, select, textarea {
 			text-align: center;
 			background-image: url("images/overlay.png");
 		}
+		
+		@keyframes imagefadeAn {
+			from {opacity: 0.2;}
+			to {opacity: 1;}
+		  }
+		  
+		@-webkit-keyframes imagefadeAn {
+			from {opacity: 0.2;}
+			to {opacity: 1;}
+		}
 
 			#main > section.dark {
 				color: #ddd;
@@ -2303,6 +2313,8 @@ input, select, textarea {
 					rgba(0, 0, 0, 0.5),
 					rgba(0, 0, 0, 0.5)
 				  ),url("../../images/banner.jpg");
+				  -webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+    				animation: imagefadeAn 3s ;
 			}
 
 			#main > section.two {
@@ -2416,30 +2428,40 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/bosch_sensetec.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 				#projectpage > section.jellyflugMicroAdventures {
 					background-image: linear-gradient(
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/jellyflug_micro_adventures.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 				#projectpage > section.projecthoneycomb {
 					background-image: linear-gradient(
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/projecthoneycomb.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 				#projectpage > section.myMind {
 					background-image: linear-gradient(
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/my_mind.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 				#projectpage > section.seagullSwipe {
 					background-image: linear-gradient(
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/seagull_swipe.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 				
 				#projectpage > section.jellyflugAntibodyAssault {
@@ -2447,6 +2469,8 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/jellyflug_antibody_assault.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 				
 				#projectpage > section.bosch {
@@ -2454,6 +2478,8 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/bosch_sensetec.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 				
 				#projectpage > section.codinca {
@@ -2461,6 +2487,8 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/codinca.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 				
 				#projectpage > section.stMarys {
@@ -2468,6 +2496,8 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/st_marys_app.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 				
 				#projectpage > section.jellyflug {
@@ -2475,6 +2505,8 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/jellyflug.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 				
 				#projectpage > section.chickenJumper {
@@ -2482,6 +2514,8 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/chicken_jumper_1.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 				
 				#projectpage > section.democracyNow {
@@ -2489,6 +2523,8 @@ input, select, textarea {
 						rgba(0, 0, 0, 0.5),
 						rgba(0, 0, 0, 0.8)
 						),url("../../images/portfolio_images/democracy_now.png");
+						-webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+						  animation: imagefadeAn 3s ;
 				}
 
 /* Text effect intro */
