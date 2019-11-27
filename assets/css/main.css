@@ -1858,7 +1858,6 @@ input, select, textarea {
 		}
 
 /* Icons */
-
 	ul.icons {
 		cursor: default;
 		list-style: none;
@@ -2079,7 +2078,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Free-Solid-900';
+			font-family: 'Font Awesome 5 Brands';
 		}
 
 /* Header */
