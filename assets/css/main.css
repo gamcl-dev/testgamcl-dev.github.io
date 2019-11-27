@@ -2212,7 +2212,7 @@ input, select, textarea {
 						line-height: 1.75em;
 					}
 
-				#nav ul li a.active {
+				#nav ul li a.active  {
 					background: rgba(0, 0, 0, 0.15);
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 					color: #fff;
@@ -2220,6 +2220,12 @@ input, select, textarea {
 
 					#nav ul li a.active span:before {
 						color: #e27689;
+					}
+					#nav ul li a:hover {
+						color: #e27689;
+					}
+					#nav ul li a:hover span:before {
+						color: #fff;
 					}
 
 /* Footer */
