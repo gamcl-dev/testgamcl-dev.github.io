@@ -1827,6 +1827,7 @@ div.gallery {
 			height: 64px;
 			filter: drop-shadow(5px 5px 2px #4444447e);
 		}
+		
 
 
 /* Image */
@@ -2088,6 +2089,15 @@ div.gallery {
 				display: flex;
 				justify-content: space-evenly;
 			}
+			
+			.item:hover {
+			
+				color: #e27689;
+			  }
+			  .item:hover header h3{
+			
+				color: #e27689;
+		  	}
 
 /* Icons */
 
