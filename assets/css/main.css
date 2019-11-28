@@ -2512,6 +2512,15 @@ div.gallery {
 				  /* -webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
     			  /*	animation: imagefadeAn 3s ;*/
 				}
+				#projectpage > section.medicalMe {
+					background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.8)
+						),url("../../images/portfolio_images/medical_me.png");
+						
+				  /* -webkit-animation: imagefadeAn 3s ; /* Chrome, Safari, Opera */
+    			  /*	animation: imagefadeAn 3s ;*/
+				}
 				#projectpage > section.seagullSwipe {
 					background-image: linear-gradient(
 						rgba(0, 0, 0, 0.5),
