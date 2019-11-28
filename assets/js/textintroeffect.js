@@ -16,9 +16,12 @@ for(let i = 0; i < text.innerText.length; i++)
 }
 */
 //text.innerHTML = newDom;
-var length = text.children.length;
-
-for(let i = 0; i < length; i++)
+if(text != null)
 {
-    text.children[i].style['animation-delay'] = animationDelay * i + 'ms';
+    var length = text.children.length;
+
+    for(let i = 0; i < length; i++)
+    {
+        text.children[i].style['animation-delay'] = animationDelay * i + 'ms';
+    }
 }
